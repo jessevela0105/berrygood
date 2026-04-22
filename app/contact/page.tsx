@@ -24,12 +24,12 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Headquarters",
-    details: ["123 Business Center Drive", "Suite 500", "New York, NY 10001"],
+    details: ["Building 128, Brooklyn Navy Yard", "Brooklyn, NY 11205"],
   },
   {
     icon: Phone,
     title: "Phone",
-    details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+    details: ["1 212 239 5050", "1 212 239 5317"],
   },
   {
     icon: Mail,
@@ -227,7 +227,7 @@ export default function ContactPage() {
             <div className="text-center">
               <MapPin className="h-12 w-12 text-primary/30 mx-auto mb-4" />
               <p className="text-muted-foreground">Interactive map coming soon</p>
-              <p className="text-sm text-muted-foreground mt-1">123 Business Center Drive, New York, NY 10001</p>
+              <p className="text-sm text-muted-foreground mt-1">Building 128, Brooklyn Navy Yard, Brooklyn, NY 11205</p>
             </div>
           </div>
         </div>

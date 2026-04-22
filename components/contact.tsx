@@ -11,13 +11,13 @@ import { MapPin, Phone, Mail, Clock, CheckCircle, ArrowRight } from "lucide-reac
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Visit Us",
-    details: ["123 Business Center Drive", "Suite 500", "New York, NY 10001"],
+    title: "Headquarters",
+    details: ["Building 128, Brooklyn Navy Yard", "Brooklyn, NY 11205"],
   },
   {
     icon: Phone,
-    title: "Call Us",
-    details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+    title: "Phone",
+    details: ["1 212 239 5050", "1 212 239 5317"],
   },
   {
     icon: Mail,
