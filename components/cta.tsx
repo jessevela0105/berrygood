@@ -16,7 +16,7 @@ export function CTA() {
           Transform Your Business Today
         </div>
         
-        <h2 className="text-3xl font-serif font-bold tracking-tight text-white sm:text-4xl lg:text-5xl text-balance">
+        <h2 className="text-3xl font-serif font-bold tracking-tight text-white sm:text-4xl lg:text-5xl text-balance leading-snug sm:leading-relaxed">
           Ready to Achieve Your Full Potential?
         </h2>
         
