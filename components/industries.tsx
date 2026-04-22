@@ -37,7 +37,7 @@ const industries = [
       "Adapt to market shifts, encourage innovation, and evolve for sustained growth across fintech, banking, and insurance.",
     slug: "financial-services",
     image:
-      "https://images.unsplash.com/photo-1611974789855-9c844a774e04?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80",
   },
   {
     icon: Heart,
