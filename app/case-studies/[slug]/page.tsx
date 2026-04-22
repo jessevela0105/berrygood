@@ -87,9 +87,19 @@ export default async function CaseStudyDetailPage({ params }: Props) {
             <h2 className="text-xl font-semibold text-foreground">Challenge</h2>
             <p className="text-muted-foreground leading-relaxed">{study.challenge}</p>
           </section>
-          <section className="space-y-4">
-            <h2 className="text-xl font-semibold text-foreground">Approach</h2>
-            <p className="text-muted-foreground leading-relaxed">{study.solution}</p>
+          <section className="space-y-6">
+            <h2 className="text-xl font-semibold text-foreground">Our Approach</h2>
+            <div className="space-y-8">
+              {study.approach.map((step, index) => (
+                <div key={step.title} className="relative pl-8 border-l-2 border-primary/20">
+                  <div className="absolute -left-3 top-0 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-xs font-bold text-primary-foreground">
+                    {index + 1}
+                  </div>
+                  <h3 className="text-lg font-semibold text-foreground mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+                </div>
+              ))}
+            </div>
           </section>
           <section className="space-y-4">
             <h2 className="text-xl font-semibold text-foreground">Results</h2>
