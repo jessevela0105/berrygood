@@ -13,7 +13,7 @@ export function CaseStudies() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-primary">Success Stories</span>
-          <h2 className="mt-2 text-3xl font-serif font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+          <h2 className="mt-2 text-3xl font-serif font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance leading-snug sm:leading-relaxed">
             Helping You Keep Up with the Speed of Change
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground text-pretty">

@@ -107,7 +107,7 @@ export function Solutions() {
           <span className="text-sm font-semibold uppercase tracking-wider text-primary">
             What We Offer
           </span>
-          <h2 className="mt-2 text-3xl font-serif font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance">
+          <h2 className="mt-2 text-3xl font-serif font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl text-balance leading-snug sm:leading-relaxed">
             Comprehensive Solutions for Your Success
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground text-pretty">
